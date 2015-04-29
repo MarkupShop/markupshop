@@ -1,0 +1,38 @@
+footer{
+
+	padding: 2em 12.5%;
+	background: #666;
+
+	dl{
+		@include clearfix;
+	}
+
+	dt{
+		float: left;
+		font-family: "proxima-nova";
+		color: #fff;
+		font-weight: 100;
+		padding-top: 10px;
+	}
+
+	dd{
+		float: right;
+		background: #ccc;
+		width: 30px;
+		height: 30px;
+		margin-left: 10px;
+		text-indent: -9999em;
+		display: inline-block;
+		background: url('../assets/images/social-sprite.png') no-repeat 0 0;
+	}
+
+	dd a{
+		display: block;
+		width: 30px;
+		height: 30px;
+	}
+
+	dd.facebook{ background-position: -30px 0; }
+	dd.skype{ background-position: -60px 0; }
+
+}

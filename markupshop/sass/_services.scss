@@ -1,0 +1,73 @@
+#services{
+	
+	@include clearfix;
+
+	background: $orange;
+	padding-top: 5em;
+	padding-bottom: 7em;
+	border-top: 5px solid #666;
+	border-bottom: 5px solid #666;
+	
+	dl{
+		width: 28%;
+		margin: 0 2.5%;
+		float: left;
+		text-align: center;
+	}
+
+	dl .icon{
+        display:block;
+        margin-bottom: 2em;
+    }
+
+    dl .icon svg{
+        display: block;
+        width: 33%;
+        margin: 0 auto;
+        fill: #fff;
+		opacity: .5;
+   	}
+
+	dt{
+		font-weight: 800;
+		margin-bottom: 1em;
+		letter-spacing: 2px;
+	}
+
+	dd{
+		line-height: 1.4em;
+		font-size: 1em;
+		font-weight: 300;
+	}
+
+}
+
+@media screen and (max-width: 800px){
+
+	#services{
+		
+		dl{
+			width: 100%;
+			float: none;
+			margin: 0;
+
+			&+dl{
+				margin-top: 4em;
+			}
+		}
+
+	}
+
+}
+
+@media screen and (max-width: 600px){
+
+	#services {
+		
+		dd{
+			font-size: .8em;
+		}
+
+	}
+
+}

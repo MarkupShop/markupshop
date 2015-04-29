@@ -1,0 +1,76 @@
+#about{
+	
+	@include clearfix;
+
+	padding-top: 5em;
+	padding-bottom: 6em;
+	border-top: 5px solid #666;
+	background: url('../assets/images/subtle_dots.png') repeat;
+	
+	.section-header{
+		color: #aaa;
+	}
+	
+	.about-text{
+		line-height: 1.6em;
+		font-size: 2em;
+		font-weight: 300;
+		margin: 0 auto;
+		letter-spacing: 1px;
+	}
+
+	.about-text p + p{
+		margin-top: 2em;
+	}
+
+}
+
+@media screen and (max-width: 1600px){
+	
+	#about{
+		
+		.about-text{
+			font-size: 1.4em;
+		}
+
+	}
+
+}
+
+@media screen and (max-width: 1200px){
+
+	#about{
+		
+		.about-text{
+			float: none;
+			width: 100%;
+			text-align: center;
+		}
+
+	}
+
+}
+
+@media screen and (max-width: 800px){
+
+	#about {
+
+		.about-text{
+			font-size: 1.2em;
+		}
+
+	}
+
+}
+
+@media screen and (max-width: 480px){
+	
+	#about {
+
+		.about-text{
+			font-size: .8em;
+		}
+
+	}
+
+}

@@ -1,0 +1,27 @@
+.section-header{
+	margin-bottom: 2em;
+	font-size: 2em;
+	font-weight: 600;
+	color: #fff;
+	opacity: .5;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	
+}
+
+section {
+  	padding: 2em 15%;
+	font-family: 'proxima-nova', helvetica, arial;
+	font-size: 1.2em;
+}
+
+.access{
+	display: none;
+}
+
+@media screen and (max-width: 600px){
+	.section-header{
+		font-size: 1.4em;
+	}
+}
