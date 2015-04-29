@@ -28,5 +28,4 @@
 		<script>try{Typekit.load();}catch(e){}</script>
 	</head>
 	
-	<body>	
-		<!--TESTING-DUDES-ForREal!!-->
+	<body>
