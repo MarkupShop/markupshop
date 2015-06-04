@@ -1,20 +1,4 @@
-<?php get_header();
-	// load icons
-    get_template_part('svg');
-?>
-
-<section id="intro" role="banner">
-
-	<h1 class="page-title">
-		<svg viewBox="0 0 400 400" class="main-logo" aria-label="MarkupShop">
-			<title>MarkupShop</title>
-            <use xlink:href="#markupshop-logo"></use>
-        </svg>
-	</h1>
-
-	<h2>A small development agency focused on helping people build the things they need.</h2>
-
-</section>
+<?php get_header(); ?>
 
 <section id="about" role="section">
 

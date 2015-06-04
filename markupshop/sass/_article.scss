@@ -1,0 +1,87 @@
+
+	.article-header{
+		@extend .section-header;
+		color: #fff;
+		border-bottom: solid 5px $blue;
+		border-top: solid 5px $orange;
+		opacity: 1;
+		font-size: 4em;
+		margin-bottom: 0;
+		font-family: 'proxima-nova', helvetica, arial;
+		position: relative;
+		padding: 4em 0;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		overflow: hidden;
+		
+		.header-wrapper{
+		//	background: $orange;
+		//	background: rgba(237,182,100,.8);
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			padding-top: 2.5em;
+		}
+
+		.section-name{
+			font-size: .35em;
+			display: block;
+			font-weight: 100;
+			color: #fff;
+			margin: 1em auto;
+		}
+	}
+
+article{
+
+
+	h3{
+		font-size: 1.6em;
+		font-weight: 100;
+		margin: 3em 0 1em;
+		text-align: center;
+
+		&:first-of-type{
+			margin-top: 1em;
+		}
+	}
+
+	p, li, a, span{
+		font-weight: 100;
+		line-height: 1.4em;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	img{
+		width: 100%;
+		height: auto;
+	}
+
+	li{
+		list-style: circle;
+		list-style-position: outside;
+		padding-left: 1em;
+		margin-bottom: 1em;
+	}
+
+	.wp-caption, .size-full{
+		width: 100%!important;
+		height: auto!important;
+	}
+
+	.wp-caption-text{
+		border-top: 1px solid #aaa;
+		margin-top: 1em;
+		padding-top: .25em;
+		color: #666;
+		max-width: 100%;
+		font-size: .8em;
+	}
+
+
+}
+

@@ -1,0 +1,40 @@
+.page-content{
+	background: #76bee4;
+	border-top: 10px solid #edb664;
+}
+
+.staff-member{
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 1em;
+	position: relative;
+	overflow: hidden;
+
+
+
+	.photo{
+		width: 40%; 
+		float: left;
+		height: 100%;
+	}
+
+
+	.staff-info{
+		width: 50%;
+		float: right;
+		background: url("../assets/images/subtle_dots.png") repeat;
+		padding: 2em;
+		height: 80%;
+	}
+
+	.staff-name{ 
+		margin: 0 0 2em; 
+		.name{ font-size: 2em; }
+		.title{ font-size: 1.25em; font-style: italic;}
+	}
+
+	.bio{
+		margin: 0 0 2em;
+	}
+	
+}
