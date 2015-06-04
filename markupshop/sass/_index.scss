@@ -1,0 +1,43 @@
+.loop-list{
+
+	.list-title{
+		font-size: 1.6em;
+		font-weight: 100;
+		margin-bottom: 1em;
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 1em;
+	}
+
+	.tile{
+		position: relative;
+		display: block;
+
+		img{
+			width: 100%;
+			height: auto;
+		}
+
+		h2{
+			position: absolute;
+			@include transition(all .5s);
+			top: 10%;
+			left: 3%;
+			color: #fff;
+			font-weight: 100;
+			font-size: 2em;
+			background: rgba(0,0,0,.5);
+			padding: 1em;
+		}
+
+		&:hover{
+
+			h2{
+				color: $orange;
+			}
+
+		}
+	}
+
+	
+
+}

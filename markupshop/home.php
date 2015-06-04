@@ -10,6 +10,8 @@
 		<p>We&rsquo;re not interested in being the biggest agency around &mdash; just a valuable partner for the folks we work with.</p>
 	</div>
 
+	<a class="button" href="<?php bloginfo('url'); ?>/case-studies/">see some of our work</a>
+
 </section><!--#about-->
 
 <section id="services" role="section">

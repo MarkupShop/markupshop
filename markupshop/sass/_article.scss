@@ -32,6 +32,12 @@
 			font-weight: 100;
 			color: #fff;
 			margin: 1em auto;
+			text-decoration: none;
+			@include transition(all .5s);
+
+			&:hover{
+				color: $orange;
+			}
 		}
 	}
 
@@ -40,6 +46,7 @@ article{
 
 	h3{
 		font-size: 1.6em;
+		line-height: 1.4em;
 		font-weight: 100;
 		margin: 3em 0 1em;
 		text-align: center;
@@ -51,7 +58,7 @@ article{
 
 	p, li, a, span{
 		font-weight: 100;
-		line-height: 1.4em;
+		line-height: 1.8em;
 		max-width: 800px;
 		margin: 0 auto;
 	}

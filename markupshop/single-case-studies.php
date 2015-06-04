@@ -4,7 +4,7 @@
 
 	<?php $url = wp_get_attachment_url( get_post_thumbnail_id() ); ?>
 
-	<h2 class="article-header" style="background-image: url(<?php echo $url; ?>)"><div class="header-wrapper"><span class="section-name">Case Studies</span><?php the_title(); ?></div></h2>
+	<h2 class="article-header" style="background-image: url(<?php echo $url; ?>)"><div class="header-wrapper"><a class="section-name" href="<?php bloginfo('url'); ?>/case-studies">Case Studies</a><?php the_title(); ?></div></h2>
 
 	<section>
 
