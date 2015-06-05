@@ -2,15 +2,19 @@
 
 <section id="about" role="section">
 
-	<h3 class="section-header">About Us</h3>
+	<div class="wrapper">
 
-	<div class="about-text">
-		<p>Organizations and their clients are desperate for reliable development when they need it &mdash; and we&rsquo;re here to help.</p>
-		<p>We believe that well-crafted development is necessary to produce quality products. We're obsessive about delivering high-quality code and doing it on time.</p>
-		<p>We&rsquo;re not interested in being the biggest agency around &mdash; just a valuable partner for the folks we work with.</p>
+		<h3 class="section-header">About Us</h3>
+	
+		<div class="about-text">
+			<p>Organizations and their clients are desperate for reliable development when they need it &mdash; and we&rsquo;re here to help.</p>
+			<p>We believe that well-crafted development is necessary to produce quality products. We're obsessive about delivering high-quality code and doing it on time.</p>
+			<p>We&rsquo;re not interested in being the biggest agency around &mdash; just a valuable partner for the folks we work with.</p>
+		</div>
+	
+		<a class="button" href="<?php bloginfo('url'); ?>/case-studies/">see some of our work</a>
+
 	</div>
-
-	<a class="button" href="<?php bloginfo('url'); ?>/case-studies/">see some of our work</a>
 
 </section><!--#about-->
 
@@ -58,34 +62,38 @@
 
 <section id="contact" role="section">
 
-	<div class="contact-text">
+	<div class="wrapper">
 
-		<h3 class="section-header">Get In Touch</h3>
-		
-		<a href="mailto:contact@markupshop.com">contact<span>@markupshop.com</span></a> 
+		<div class="contact-text">
 	
-		<p>If you&rsquo;ve got a project ready to start, or are just looking for someone to be your &ldquo;go-to&rdquo; developers in the future, we&rsquo;d love to hear from you. We love talking with others about their projects and helping folks map out the way forward.</p>
+			<h3 class="section-header">Get In Touch</h3>
+			
+			<a href="mailto:contact@markupshop.com">contact<span>@markupshop.com</span></a> 
 		
-		<div id="bios">
-
-			<div class="mobley">
-				<img alt="Josh Mobley" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/mobley_circle.png" />
-				<dl>
-					<dt class="name">Josh Mobley</dt>
-					<dd class="job-title">Managing Partner</dd>
-				</dl>
+			<p>If you&rsquo;ve got a project ready to start, or are just looking for someone to be your &ldquo;go-to&rdquo; developers in the future, we&rsquo;d love to hear from you. We love talking with others about their projects and helping folks map out the way forward.</p>
+			
+			<div id="bios">
+	
+				<div class="mobley">
+					<img alt="Josh Mobley" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/mobley_circle.png" />
+					<dl>
+						<dt class="name">Josh Mobley</dt>
+						<dd class="job-title">Managing Partner</dd>
+					</dl>
+				</div>
+	
+				<div class="rucker">
+					<img alt="Josh Rucker" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/rucker_circle.png" />
+					<dl>
+						<dt class="name">Josh Rucker</dt>
+						<dd class="job-title">Partner</dd>
+					</dl>
+				</div>
+	
 			</div>
-
-			<div class="rucker">
-				<img alt="Josh Rucker" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/rucker_circle.png" />
-				<dl>
-					<dt class="name">Josh Rucker</dt>
-					<dd class="job-title">Partner</dd>
-				</dl>
-			</div>
-
+			
 		</div>
-		
+
 	</div>
 	
 </section>

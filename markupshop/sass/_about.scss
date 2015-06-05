@@ -13,7 +13,6 @@
 	
 	.about-text{
 		line-height: 1.6em;
-		font-size: 2em;
 		font-weight: 300;
 		margin: 0 auto;
 		letter-spacing: 1px;
@@ -41,44 +40,6 @@
 		&:hover{
 			background: darken($orange, 10%);
 		}
-	}
-
-}
-
-@media screen and (max-width: 1600px){
-	
-	#about{
-		
-		.about-text{
-			font-size: 1.4em;
-		}
-
-	}
-
-}
-
-@media screen and (max-width: 1200px){
-
-	#about{
-		
-		.about-text{
-			float: none;
-			width: 100%;
-			text-align: center;
-		}
-
-	}
-
-}
-
-@media screen and (max-width: 800px){
-
-	#about {
-
-		.about-text{
-			font-size: 1.2em;
-		}
-
 	}
 
 }
